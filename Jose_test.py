@@ -2,6 +2,11 @@ import random
 
 class Board:
 
+    
+          
+
+
+    
           def __init__(self):
                     self.piles = []
                     self._prepare()
@@ -39,3 +44,6 @@ class Board:
                     piles = ["r","g","y","b"]
                     Random_sequence =random.sample(piles, len(piles))
                     return Random_sequence
+    
+
+Board()
